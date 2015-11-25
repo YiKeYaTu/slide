@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-overflow-scrolling : touch;
+}
+#box-outer {
+	width: 800px;
+	height: 3000px;
+	position: relative;
+	background: #f3f3f3;
+	overflow: hidden;
+}
+.box {
+	width: 800px;
+	height: 800px;
+	position: absolute;
+}
+.content1 {
+	background: red;
+	-webkit-transform: translate3d(0,0,0);
+}
+.content2 {
+	background: blue;
+	-webkit-transform: translate3d(800px,0,0);
+}
+.content3 {
+	background: black;
+	-webkit-transform: translate3d(1600px,0,0);
+}
